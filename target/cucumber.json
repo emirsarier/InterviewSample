@@ -1,0 +1,62 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-14T14:57:58.650Z",
+        "line": 6,
+        "name": "Search page title verification",
+        "description": "",
+        "id": "google-search-functionality;search-page-title-verification",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15847000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on Google home page",
+            "match": {
+              "location": "com.sample.stepDefinitions.GoogleSearchStepDefs.user_is_on_google_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should see title is Google",
+            "match": {
+              "location": "com.sample.stepDefinitions.GoogleSearchStepDefs.user_should_see_title_is_google()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Google search functionality",
+    "description": "  Agile Story: As a user, when I am on the google search page,\n  I should be able to search whatever I want, and see relevant information",
+    "id": "google-search-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/googleSearch.feature",
+    "tags": [
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
